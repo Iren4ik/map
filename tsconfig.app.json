@@ -4,7 +4,10 @@
     "target": "es2023",
     "lib": ["ES2023", "DOM"],
     "module": "esnext",
-    "types": ["vite/client"],
+    "types": ["vite/client", "@yandex/ymaps3-types"],
+    "paths": {
+      "ymaps3": ["./node_modules/@yandex/ymaps3-types"]
+    },
     "allowArbitraryExtensions": true,
     "skipLibCheck": true,
 
